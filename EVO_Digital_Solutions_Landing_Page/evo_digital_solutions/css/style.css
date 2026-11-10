@@ -1,0 +1,30 @@
+/* ============================================================
+   EVO DIGITAL SOLUTIONS - CUSTOM STYLES
+   Catatan: Seluruh aturan asli dipertahankan agar tampilan tidak berubah.
+   ============================================================ */
+
+/* Reset dasar halaman dari desain sumber. */
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    overscroll-behavior: none;
+  }
+
+  main > :first-child {
+    margin-top: 0 !important;
+  }
+
+  main > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+/* Scrollbar disembunyikan sesuai tampilan desain sumber. */
+::-webkit-scrollbar {
+  display: none;
+}
